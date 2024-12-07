@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 #include "util.h"
 
@@ -28,6 +29,7 @@ bool is_safe(vector<int> levels) {
 	return true;
 
 }
+
 void p2_1() {
 	int safe_count = 0;
 	for (const auto& line : readFile(DATA_PATH + "p2.txt")) {
@@ -38,6 +40,7 @@ void p2_1() {
 	}
 	print(safe_count);
 }
+
 void p2_2() {
 	int safe_count = 0;
 	for (const auto& line : readFile(DATA_PATH + "p2.txt")) {

@@ -23,6 +23,7 @@ void p1_1() {
 	}
 	print(sum);
 }
+
 void p1_2() {
 	map<int, int> m1, m2;
 	for (const auto& line : readFile(DATA_PATH + "p1.txt")) {
