@@ -12,7 +12,7 @@ endif()
 project ("adventofcode2024")
 
 # Add source to this project's executable.
-add_executable (adventofcode2024 "adventofcode2024.cpp" "adventofcode2024.h" "common.cpp"
+add_executable (adventofcode2024 "adventofcode2024.cpp" "adventofcode2024.h" "util.cpp"
 	"p1.cpp" "p2.cpp" "p3.cpp" "p4.cpp" "p5.cpp" "p6.cpp" "p7.cpp" "p8.cpp" "p9.cpp" "p10.cpp"
 	"p11.cpp" "p12.cpp" "p13.cpp" "p14.cpp" "p15.cpp" "p16.cpp" "p17.cpp" "p18.cpp" "p19.cpp" "p20.cpp"
 	"p21.cpp" "p22.cpp" "p23.cpp" "p24.cpp" "p25.cpp")
