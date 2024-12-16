@@ -34,3 +34,7 @@ void print(T&& arg, Ts... arg2) {
 std::vector<std::string> readFile(const std::string& path);
 
 std::vector<std::string> splitString(const std::string& str, const char c, bool allowEmpty = false);
+
+std::vector<int64_t> stringToInt64Vec(const std::vector<std::string>& vec);
+
+std::vector<int64_t> extractInts(const std::string& str, const std::string& regex);
